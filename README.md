@@ -1,12 +1,12 @@
 # Five Nights at Epstein's 简体中文版本
 
+### Five Nights at Epstein's - Simplified Chinese Version
+
 > 基于 v1.2.2 版本。
 
 ---
 
 ## 1. 游戏简介
-
-This is a Chinese edition of *Five Nights at Epstein's*.
 
 本作是 *Five Nights at Freddy's* (玩具熊的五夜后宫)的恶搞同人游戏，原版为 Unity 制作，此为 HTML5 网页移植汉化版。
 
@@ -256,15 +256,17 @@ This is a Chinese edition of *Five Nights at Epstein's*.
 
 默认禁用，原作者埋下用于调试，但是该版本已启用。
 
+手机等移动设备触摸屏用户可双指双击屏幕任意区域调出作弊菜单。
+
 Mac 用户需按住 `fn` 键配合使用：
 
 | 按键 | 功能 | 使用场景 |
 |------|------|---------|
-| `fn + F6` | 强制特朗普进入通风管 | 游戏中 |
-| `fn + F7` | 时间快进 1 小时 | 游戏中 |
-| `fn + F8` | 解锁自定义夜晚 | 任何时候 |
-| `fn + F9` | 跳过当前夜晚（直接通关） | 游戏中 |
-| `fn + F10` | 解锁特别之夜 | 任何时候 |
+| `F6` | 强制特朗普进入通风管 | 游戏中 |
+| `F7` | 时间快进 1 小时 | 游戏中 |
+| `F8` | 解锁自定义夜晚 | 任何时候 |
+| `F9` | 跳过当前夜晚（直接通关） | 游戏中 |
+| `F10` | 解锁特别之夜 | 任何时候 |
 | `1` ~ `6` | 直接跳到对应关卡 | 仅主菜单 |
 
 ---
