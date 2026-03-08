@@ -2020,3 +2020,102 @@ button {
         width: 100%;
     }
 }
+
+/* ==================== 移动端作弊菜单 ==================== */
+
+#mobile-cheat-menu {
+    position: fixed;
+    z-index: 999999;
+    background: rgba(20, 20, 20, 0.95);
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 8px 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9), 0 0 1px rgba(255, 0, 0, 0.2);
+    width: 260px;
+    max-width: 70vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#mobile-cheat-menu::-webkit-scrollbar {
+    width: 4px;
+}
+
+#mobile-cheat-menu::-webkit-scrollbar-thumb {
+    background: rgba(255, 0, 0, 0.3);
+    border-radius: 2px;
+}
+
+.cheat-menu-section {
+    color: #cc0000;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 14px 4px;
+    margin-top: 4px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.15);
+}
+
+.cheat-menu-section:first-child {
+    margin-top: 0;
+}
+
+.cheat-menu-btn {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #e0e0e0;
+    text-align: left;
+    padding: 10px 14px;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    box-sizing: border-box;
+}
+
+.cheat-menu-btn:hover:not(:disabled),
+.cheat-menu-btn:active:not(:disabled) {
+    background: rgba(255, 0, 0, 0.15);
+    color: #fff;
+}
+
+.cheat-menu-btn:disabled {
+    color: #444;
+    cursor: not-allowed;
+}
+
+/* 移动端竖屏适配 */
+@media (max-width: 768px) and (orientation: portrait) {
+    #mobile-cheat-menu {
+        width: 70vw;
+    }
+    .cheat-menu-btn {
+        padding: 12px 14px;
+        font-size: 3.5vw;
+    }
+    .cheat-menu-section {
+        font-size: 2.8vw;
+    }
+}
+
+/* 移动端横屏适配 */
+@media (max-width: 926px) and (orientation: landscape) {
+    #mobile-cheat-menu {
+        width: 240px;
+        max-height: 90vh;
+    }
+    .cheat-menu-btn {
+        padding: 8px 14px;
+        font-size: 1.8vh;
+    }
+    .cheat-menu-section {
+        font-size: 1.5vh;
+        padding: 6px 14px 3px;
+    }
+}
